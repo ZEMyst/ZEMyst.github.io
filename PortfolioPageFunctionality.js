@@ -1,13 +1,3 @@
-function btnChangeTxt(Obj){
-    if (Obj.value=="Click Me Again") Obj.value = "Click Me";
-    else Obj.value = "Click Me Again";
-}
-
-function testingFocus(Obj){
-    if (Obj.value=="Click Me Next") Obj.value = "Click Me";
-    if (Obj.Value=="Click Me") Obj.value = "Click Me Next";
-}
-
 function changePage(Obj){
     if (Obj.className=="CenterItemAboutMe"){
         window.location.href="AboutMePage";
@@ -18,7 +8,7 @@ function changePage(Obj){
     }else if (Obj.className=="CenterItemContact"){
         window.location.href="ContactPage";
     }else{
-        window.location.href="Index";
+        window.location.href="index";
     }
 }
 
