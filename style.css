@@ -1,0 +1,357 @@
+body{
+    background-size: cover;
+    margin-left: 5%;
+    margin-right: 5%;
+    animation: backgroundMove 60s linear alternate infinite;
+}
+#options{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 15px;
+    width: 20%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #00C9E4;
+    background: none;
+    color: #00c9e4;
+    text-shadow: 2px 2px 5px #00c9e4;
+    padding: 5px;
+    box-shadow: 0px 0px 15px #00c9e4;
+    font-family: 'Merriweather Sans';
+}
+#options:hover{
+    color: #00e1ff;
+    border: 3px solid #00e1ff;
+    text-shadow: 3px 3px 5px #00e1ff;
+    box-shadow: 0px 0px 20px #00e1ff;
+}
+#options option{
+    background-color: black;
+    font-family: 'Merriweather Sans';
+}
+#HomeButton{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    border: 2px solid #00c9e4;
+    background: none;
+    color: #00c9e4;
+    text-shadow: 2px 2px 5px #00c9e4;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #00c9e4;
+    font-family: 'Merriweather Sans';
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+button:hover{
+    color: #00e1ff;
+    border: 3px solid #00e1ff;
+    text-shadow: 3px 3px 5px #00e1ff;
+    box-shadow: 0px 0px 20px #00e1ff;
+}
+h1{
+    color: #00C9E4;
+    text-shadow: 2px 2px 35px #00c9e4;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merriweather';
+}
+h2{
+    color: #00C9E4;
+    text-shadow: 2px 2px 30px #00C9E4;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Merriweather';
+}
+h6{
+    color: #00C9E4;
+    text-shadow: 1px 1px 5px #00C9E4;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Merriweather';
+}
+h3{
+    color: #00C9E4;
+    text-shadow: 2px 2px 20px #00C9E4;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Merriweather';
+}
+p{
+    color: #00C9E4;
+    text-shadow: 2px 2px 20px #00C9E4;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merriweather Sans';
+}
+ul{
+    justify-content: center;
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    color: #00C9E4;
+    padding: 0px;
+    font-family: 'Merriweather Sans';
+    text-shadow: 2px 2px 20px #00C9E4;
+    padding-left: 25%;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: #00C9E4;
+    font-family: 'Merriweather Sans';
+    text-shadow: 2px 2px 15px #00C9E4;
+}
+.EducationTable td{
+    text-align: center;
+}
+th{
+    border: 1px solid #00C9E4;
+    box-shadow: 0px 0px 15px #00C9E4;
+}
+td{
+    border: 1px solid #00C9E4;
+    box-shadow: 0px 0px 15px #00C9E4;
+}
+.meImg{
+    background-size: cover;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 25%;
+    border: 4px solid #00C9E4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #00C9E4;
+}
+.contactStyle, .contactIcon{
+    display: block;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    margin-bottom: -3%;
+    margin-top: 5%;
+}
+.contactIcon{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.contactForm{
+    display: flex;
+}
+#LikesDislikes{
+    overflow: hidden;
+}
+#threeChars .meImg{
+    display: flex;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    margin-bottom: 200px;
+    float: left;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+#drawnChar .meImg{
+    margin-left: 50px;
+    margin-right: 50px;
+    float: left;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.NavColumn{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -5%;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavRow::after{
+    content: "";
+    clear: both;
+    display: flex;
+}
+.BottomRow{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#LeftItemId{
+    opacity: 25%;
+    background: radial-gradient(farthest-side,rgba(0, 225, 255, 0.288),transparent) center no-repeat;
+    animation: pulse 5s linear infinite alternate;
+}
+#LeftItemId:hover{
+    opacity: 50%;
+}
+#RightItemId{
+    opacity: 25%;
+    background: radial-gradient(farthest-side,rgba(0, 225, 255, 0.288),transparent) center no-repeat;
+    animation: pulse 5s linear infinite alternate;
+}
+#RightItemId:hover{
+    opacity: 50%;
+}
+
+.CenterItemAboutMe{
+    opacity: 100%;
+    background: url('ImageFiles/AboutmeIcon.png') no-repeat;
+    background-size: contain;
+}
+.CenterItemAboutMe:hover{
+    background: url('ImageFiles/AboutmeIconHover.png') no-repeat;
+    z-index: 1;
+    background-size: contain;
+}
+.CenterItemSkill{
+    opacity: 100%;
+    background: url('ImageFiles/SkillIcon.png') no-repeat;
+    background-size: contain;
+}
+.CenterItemSkill:hover{
+    background: url('ImageFiles/SkillIconHover.png') no-repeat;
+    z-index: 1;
+    background-size: contain;
+}
+.CenterItemEducation{
+    opacity: 100%;
+    background: url('ImageFiles/EducationIcon.png') no-repeat;
+    background-size: contain;
+}
+.CenterItemEducation:hover{
+    background: url('ImageFiles/EducationIconHover.png') no-repeat;
+    z-index: 1;
+    background-size: contain;
+}
+.CenterItemContact{
+    opacity: 100%;
+    background: url('ImageFiles/ContactIcon.png') no-repeat;
+    background-size: contain;
+}
+.CenterItemContact:hover{
+    background: url('ImageFiles/ContactIconHover.png') no-repeat;
+    z-index: 1;
+    background-size: contain;
+}
+.skillBody{
+    overflow: hidden;
+}
+#mainContainer{
+    position: relative;
+}
+#tvBox{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+}
+.intvBox{
+    position: absolute;
+    top: 35%;
+    margin: 0 auto;
+    max-width: 75%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: -2;
+}
+#intvBoxSide{
+    display: flex;
+    position: absolute;
+    top: 85.5%;
+    margin: 0 auto;
+    max-width: 5%;
+    left: 32%;
+    text-align: center;
+}
+#intvBoxSide input{
+    max-width: 50%;
+    padding: 50%;
+}
+.screenShift{
+    position: absolute;
+    background: url(gifFiles/static.gif);
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 60%;
+    left: 0;
+    right: 0;
+    top: 30%;
+    justify-content: center;
+    z-index: -1;
+    max-width: 55%;
+}
+@keyframes pulse{
+    from{
+        background-size: 50% 50%;
+    }
+    to{
+        background-size: 100% 100%;
+    }
+}
+
+@keyframes backgroundMove{
+    from{
+        background-position: bottom right;
+    }
+    to{
+        background-position: top left;
+    }
+}

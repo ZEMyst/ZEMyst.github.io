@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather Sans' rel='stylesheet'>
+</head>
+<body background="ImageFiles/SiteWindow.png" class="skillBody">
+    <header>
+        <div id="HomeButton">
+            <button onclick="changePage(this)">
+                Home
+            </button>
+        </div>
+        <audio src="SoundFiles/ClickSound.mp3" autoplay id="openVolume"></audio>
+    </header>
+    <main id="mainContainer">
+        <img src="ImageFiles/TV2.png" alt="A tv frame" id="tvBox">
+        <div class="intvBox" id="tvBase" style="display: block;">
+            <h6>
+                If you can't see all of the text, I am sorry.
+            </h6>
+            <p>
+                hi there and welcome to my skills page, where you can click between the icons on the bottom side of the screen to change the tv's channel. You can also go back to the main selection screen by clicking the "Home" button at the top of the screen. (This page induced me with large amounts of anger and frustration)
+            </p>
+        </div>
+        <div class="intvBox" id="tvProgramming" style="display: none;">
+            <h6>
+                If you can't see all of the text, I am sorry.
+            </h6>
+            <h2>
+                Programming
+            </h2>
+            <h6>
+                Hello World
+            </h6>
+            <p>
+                LUAU is the language I know the best out of the 3 talked about here. I have worked with it for roughly 8 or so years as of writing this, and have made games with it on the Roblox platform.
+            </p>
+            <p>
+                Java Script is very similar to LUAU, so I would say that I know Java Script the second best. As of writing this, I have yet to finish the course for Java Script, so I am still not too knowledgable on the differences between JS and LUAU, besides the structural difference.
+            </p>
+            <p>
+                HTML is the one I know the least of, and am still figuring out stuff about. It is overall, at least to me, pretty simple, however together with CSS it can quickly make it very confusing and frustrating to structure the page the way I want it to.. For now at least :)
+            </p>
+        </div>
+        <div class="intvBox" id="tvDesign" style="display: none;">
+            <h6>
+                If you can't see all of the text, I am sorry.
+            </h6>
+            <h2>
+                UI & UX Design
+            </h2>
+            <p>
+                I have worked with and practiced UI & UX Design for about a year, and still practicing. I would say I have a decent understanding of it, but implementing it properly on a website is still something I am working on figuring out more about.
+            </p>
+            <p>
+                The UI & UX Design I do for the most part, is game related. I usually make the interface for games I work on, which arguably is easier than designing a website like this, but that is just because I am more used to it.
+            </p>
+            <p>
+                I am looking forward to practicing UI & UX Design together with HTML, CSS, JS & Python, and to see how I can use them together, and if it is similar to how I do it already in LUAU once I get more used to the others.
+            </p>
+        </div>
+        <div class="intvBox" id="tvGame" style="display: none;">
+            <h6>
+                If you can't see all of the text, I am sorry.
+            </h6>
+            <h2>
+                Game Design
+            </h2>
+            <p>
+                For game design, I have only been doing it on the Roblox platform so far, which if you don't know is a platform where you can create games yourself, and play games other players have made.
+            </p>
+            <p>
+                I have been a part of making multiple games, only a couple of years ago, starting to make my own together with some friends of mine. For those games, I do the user interface design, planning, programming, character designing and game testing.
+            </p>
+            <p>
+                I am fully self taught in the game design category, and probably will continue going down that route, as lectures or videos rarely ever help me learn anything.
+            </p>
+            <p>
+                <b>TO LEARN, YOU HAVE TO DO</b>
+            </p>
+        </div>
+        <div class="intvBox" id="tvComputer" style="display: none;">
+            <h6>
+                If you can't see all of the text, I am sorry.
+            </h6>
+            <h2>
+                Computers
+            </h2>
+            <p>
+                I went to school for IT Service, and was an apprentice for 2 years in IT Service.. And I still don't know much!
+            </p>
+            <p>
+                When it comes to computers, I know how to operate one, as well as fix relatively small problems with one, mostly so external problems. I don't know how to fix larger problems regarding different programs or similar thigns.
+            </p>
+            <p>
+                For general use of common computer programs, I know how to use Office, and Google :). I also know how to use and navigate Figma and VS Code to a certain extent.
+            </p>
+            <p>
+                <small><i>Computers computing computer programs short circuits my brain when I try to think too hard about it.</i></small>
+            </p>
+        </div>
+        <div class="intvBox" id="tvCook" style="display: none">
+            <h6>
+                If you can't see all of the text, I am sorry.
+            </h6>
+            <h2>
+                Cooking
+            </h2>
+            <p>
+                I would say I am an exceptionally great cook!
+            </p>
+            <h6>
+                <i>
+                    <small>
+                        when using an air fryer and a microwave! :D
+                    </small>
+                </i>
+            </h6>
+        </div>
+        <div class="screenShift" id="staticScreen" style="display: none;"></div>
+        <div id="intvBoxSide">
+            <input type="image" src="ImageFiles/CodeIcon.png" alt="icon" class="programming" onclick="changeChannel(this)">
+            <input type="image" src="ImageFiles/DesignIcon.png" alt="icon" class="design" onclick="changeChannel(this)">
+            <input type="image" src="ImageFiles/GameIcon.png" alt="icon" class="game" onclick="changeChannel(this)">
+            <input type="image" src="ImageFiles/ComputerIcon.png" alt="icon" class="computer" onclick="changeChannel(this)">
+            <input type="image" src="ImageFiles/CookIcon.png" alt="icon" class="cook" onclick="changeChannel(this)">
+        </div>
+    </main>
+    <script src="PortfolioPageFunctionality.js"></script>
+</body>
+</html>

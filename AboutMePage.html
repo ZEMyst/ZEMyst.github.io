@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather Sans' rel='stylesheet'>
+</head>
+<body background="ImageFiles/SiteWindow.png" onload="showContent()">
+    <header>
+        <select name="options" id="options" onchange="showContent()">
+            <option value="About Me" id="Op1">About Me</option>
+            <option value="Person" id="Op2">Person</option>
+            <option value="Likes Dislikes" id="Op3">Likes, Dislikes & Interests</option>
+            <option value="Projects" id="Op4">Projects</option>
+        </select>
+        <div id="HomeButton">
+            <button onclick="changePage(this)">
+                Home
+            </button>
+        </div>
+        <audio src="SoundFiles/ClickSound.mp3" autoplay id="openVolume"></audio>
+    </header>
+
+    <main id="mainMain">
+        <div id="AboutMe" style="display: none;" >
+            <h1>
+                About Me
+            </h1>
+            <p>
+                Hello, and welcome to the about me page! Here you can find out more about me! Above you can use the drop down menu to select between "About Me", "Person", "Likes & Dislikes" and "Projects".
+                You can also use the "Home" button to return back to the selection screen, if you wish to explore a different aspect of me.
+            </p>
+            <p>
+                Since you're already here, I'll give you a tldr version of this whole page, and you can read more in detail on the other pages if you so wish.
+            </p>
+            <p>
+                My name is Christopher Johansen Skoglund, and I find interest and enjoyment in UI & UX Design, as well as programming, be it with HTML, CSS, JS or LUAU. (Python hopefully in the future as well.)
+            </p>
+            <p>
+                I am (as of writing this) at 25 years of age, and I look like the image bellow.
+            </p>
+            <p>
+                (Note; If no image is there, or the image is not of me, but instead some game character or something, it is because I havent gotten around to it, or feel uncomfortable with adding a picture of me to this site.)
+            </p>
+            <img src="ImageFiles/Placeholderimg.png" alt="My Original Character!" class="meImg">
+        </div>
+        <div id="Person" style="display: none;">
+            <h1>
+                Me as a person!
+            </h1>
+            <p>
+                Hello, My name is Christopher Johansen Skoglund, I am 25 years old and currently as of writing this, I am learning HTML, CSS, JS and Python. First time properly getting into HTML, CSS and JS when making this! Bellow you can see an image of me.
+            </p>
+            <p>
+                (Note; Image may not be accurate if you see this text.)
+            </p>
+            <img src="ImageFiles/Placeholderimg.png" alt="My Original Character!" class="meImg">
+            <h2>
+                Details about me:
+            </h2>
+            <h6>
+                Bellow here will be general information about me, such as some things i struggle with, my challenges, about school and other things. (Prepare for a wall of text)
+            </h6>
+            <h3>
+                School, Certifications, Jobs & Conditions
+            </h3>
+            <p>
+                For school, I completed years 1-10, moving onto Electrical Engineering for my first year of year 11, completing the whole school year, for then to take a 1 year break from school. During the 1 year break I tried to get a job, at least temporarily, which I did at a gas station for a couple of months. I ended up quitting due to not being treated fairly well by the main staff, and would be spending the rest of that year figuring out what to do the year after, while also practicing LUAU (Programming language) as a hobby.
+            </p>
+            <p>
+                I went to Restaurant and Food Processing for my second time in year 11, where I learned how to cook (to a certain extent). During my year there I ended up not showing up for the final exam, as the whole school year had been rough. I then moved on to IT Service for my first 12th year, where I was hoping to learn more about programming, which I did not, but still completed the year and went on to become an apprentice at a workplace for 2 years. My time as an apprentice lasted the full 2 years, but I never took a certification within IT Service, due to me not believing I had the nessecairy knowledge to do so.
+            </p>
+            <p>
+                As for types of certifications I currently possess.. Its a driving license, and that's it.
+            </p>
+            <p>
+                Previous jobs I have tried out; Working at a gas station, lasted between 2 and 4 months (Can't remember). Worked for 2 years as an apprentice within the county's IT department. Tried out making long hooks for fishing boats for about a month, then moved onto trying some programming for a week, then onto working with small motors, such as lawnmowers, chainsaws and such, and repairing them. I tried out working as a cashier at a grocery store for a few months as well. I then was a part of Gaia Talent (Gaia Vesteralen), which is similar to being a student, learning UI and UX Design during my 10 month stay there.
+            </p>
+            <p>
+                As for my conditions, the main focus will be my HEDS(Hypermobile Ehlers-Danlos' Syndrome) which limit quite a lot of my physical capabilities rather drastically. Continious physical activity for even a few hours during a day, can make my feet numb and or in pain for the next day or so. Due to this condition, my body is also in constant pain at all times, and I often have stomach problems (which I am trying to figure out if is something else or not), as well as migranes quite often. This condition also makes sleep unpredictable, and I get tired faster than most. Lastly (from what I remember), this condition also makes my body regenerate/heal at a slower phase than everyone else, roughly 2-3 times slower.
+            </p>
+            <h3>
+                Hobbies & Free time
+            </h3>
+            <p>
+                My hobbies mainly consist of playing video games, game design (programming & UI Design), Character designing (Not drawing, I commission others for that) and watching Japanese animated shows (Anime). I sometimes go out with friends to play bowling, hang out with them and play board games, for some social interactions. I am quite introverted as a person, so I more often than not, enjoy spending time for myself.
+            </p>
+            <h3>
+                General information
+            </h3>
+            <p>
+                I was born in 1998 at the 24th of December, in the city of Tromso, in Norway. I have lived up there for roughly half of my life, and the other half down in Vesteralen in the county Hadsel. From when I was born and until I started in 8th grade, I had moved 13 times. For my school years, I was bullied and all that stuff, but got through them eventually. I lived for the most part with my mother, and some weekends and rarely week days with my father.
+            </p>
+            <p>
+                I am 25 and male, but for those who want my pronouns, I go by anything that you see fit (He/Him She/Her They/Them). I have 5 siblings, 3 half brothers, 1 half sister and 1 step brother, all of which are younger than me. My mother and my father is divorced and live in different places. My mother is unemployed due to a condition we both have, and my father works as an the IT Service Boss/Chief of the county he lives in. If you haven't seen an image of me, I have a beard, long (sometimes curly) hair both of which are brown, and brown eyes.
+            </p>
+            <button onclick="backtotopFunction()" id="bkToTop" title="Back to Top">Back to Top</button>
+        </div>
+        <div id="LikesDislikes" style="display: none;">
+            <h1>
+                My likes, dislikes and interests
+            </h1>
+            <p>
+                Here you can read about my likes, dislikes and interests. We'll start with Interests, then likes, then dislikes.
+            </p>
+            <h3>
+                Interests
+            </h3>
+            <p>
+                I find interest in Game Design and Character Creation, finding joy in making something functional and something that looks appealing to whoever is looking at it. I also have an interest in Japanese animated shows, also known as Anime (My favorite Anime is Frieren: Beyond Journey's End). I also have an interest in playing video games, some video games I play is Genshin Impact, Roblox, Minecraft, Content Warning, Pokemon games, Zelda games and some Mario games.
+            </p>
+            <h3>
+                Likes
+            </h3>
+            <p>
+                I was unsure about how to word anything here, as Its just me telling you what I like. For example; Going to the beach during summer with friends, watching shows, eating food, sleeping, programming, game design, pokemon, things like that, and it will be where I leave it. I personally think that, if you want to actually know these things, you ask me personally.
+            </p>
+            <h3>
+                Dislikes
+            </h3>
+            <p>
+                Things I dislike.. ooh boy.. lets see.
+            </p>
+            <ul>
+                <li>
+                    <b>Spiders</b> (Like, the worst thing to exist)
+                </li>
+                <li>
+                    <b>The deep ocean</b> (its scary)
+                </li>
+                <li>
+                    <b>Dark open spaces</b> (closed spaces are fine)
+                </li>
+                <li>
+                    <b>People</b> (I no longer have social anxiety but it still applies to some extent)
+                </li>
+                <li>
+                    <b>Bugs</b> (both actual bugs and game bugs which I have to fix..)
+                </li>
+                <li>
+                    <b>Alcohol</b> (makes me uncomfortable being near it, people who is drinking as well, and talking about it)
+                </li>
+                <li>
+                    <b>Drugs</b> (this makes me more uncomfortable than alcohol does, everything said in alcohol applies here too)
+                </li>
+            </ul>
+            <p>
+                And that's it for this page!
+            </p>
+        </div>
+        <div id="Projects" style="display: none;">
+            <h1>
+                My Projects
+            </h1>
+            <p>
+                Welcome to my Projects page, here I'll tell you a bit more about what I am currently working on, and some general information about it.
+            </p>
+            <h3>
+                HTML, CSS, JS, Python
+            </h3>
+            <p>
+                Currently I am doing a HTML, CSS, JS and Python Course, which I am enjoying. Never used these programming languages before, so I am happy to learn something new. This website is my first ever attempt at making a website with HTML, CSS and Javascript.
+            </p>
+            <h3>
+                Roblox
+            </h3>
+            <p>
+                You may or may not know what Roblox is, so I'll quickly explain that first. Roblox is a platform online where you can play or create 'experiences' which others can play and experience. To make a game there requires learning LUAU, modeling, sound design and other things generally used in game design. You often work with others like friends or people you hire.
+            </p>
+            <p>
+                As for some of my roblox projects, I'll give you a list with a slight explanation behind them.
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="4">
+                            Roblox Game Projects
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Game/Project Name</th>
+                        <th>My Job</th>
+                        <th>Description</th>
+                        <th>Progress</th>
+                    </tr>
+                    <tr>
+                        <td>Deranged Hangout</td>
+                        <td>Programming, Detailing, UI Design, Game Testing</td>
+                        <td>This game is a hangout game, where people can explore around a place where an ancient civilization used to live, find strange creatures and events, and also fish, but everything that happens, only happens to the person playing and no one else.</td>
+                        <td>Almost completed</td>
+                    </tr>
+                    <tr>
+                        <td>The Library</td>
+                        <td>Programming, Map Design, Npc Design, UI Design, Game Testing, Lore Writing (almost everything)</td>
+                        <td>This game is something I plan on making into a Hub of sorts, where It can bring people to smaller games I made, or works I have been part of.</td>
+                        <td>Early stage</td>
+                    </tr>
+                    <tr>
+                        <td>Get Banned Simulator</td>
+                        <td>Everything</td>
+                        <td>This game is a Joke, was made cause funny. People get banned from the game when they join it.</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Lumber Chicken</td>
+                        <td>Programming, UI Design, Game Testing, Lore Writing</td>
+                        <td>A game where you are a chicken, on a mission to chop down trees, for some greater purpose.</td>
+                        <td>Reworking</td>
+                    </tr>
+                    <tr>
+                        <td>Rat Simulator</td>
+                        <td>Programming, UI Design, Game Testing, Storyboarding, Lore Writing</td>
+                        <td>A game where you are a Rat, collecting cheese, but end up figuring out something major about you and everyone else.</td>
+                        <td>Reworking</td>
+                    </tr>
+                    <tr>
+                        <td>Varia Vonela</td>
+                        <td>Programming, Planning, UI Design, Game Testing, Storyboarding, Lore Writing</td>
+                        <td>A game series I plan on making, relating to magic with a mario odyssey-like type of gameplay.</td>
+                        <td>Not started</td>
+                    </tr>
+                    <tr>
+                        <td>Lag Obstacle Course</td>
+                        <td>Programming, Game Design, UI Design, Game Testing</td>
+                        <td>A game where you try to do an obstacle course with a simulated FPS of 10.</td>
+                        <td>Not started</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>
+                I also do character creation with the roblox system, which makes them look like square humans, but I have artists draw them later sometimes. Here are some characters I have made, and one which was drawn. (looking to at some point try to make characters in a more advanced program, for game design.)
+            </p>
+            <div id="threeChars">
+                <img src="ImageFiles/Character2.PNG" alt="White techwear roblox character." class="meImg">
+            </div>
+            <div id="drawnChar">
+                <img src="ImageFiles/CharacterDrawn.PNG" alt="A roblox character which was drawn later on." class="meImg">
+                <img src="ImageFiles/Placeholderimg.png" alt="The character drawn by an artist." class="meImg">
+            </div>
+        </div>
+    </main>
+
+
+    <script src="PortfolioPageFunctionality.js"></script>
+</body>
+</html>
